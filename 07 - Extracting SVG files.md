@@ -5,3 +5,5 @@ Configure Webpack to extract inline SVG files like this:
 
 
 > ### Look into code 6.html
+
+After running npm run build again, you’ll find the SVG files extracted into dist/icons and properly referenced from CSS.
