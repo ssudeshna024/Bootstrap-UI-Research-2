@@ -7,3 +7,8 @@ First, install the plugin:
 
 
 > npm install --save-dev mini-css-extract-plugin
+
+Then instantiate and use the plugin in the Webpack configuration:
+
+
+> ### Look into code 4.html
