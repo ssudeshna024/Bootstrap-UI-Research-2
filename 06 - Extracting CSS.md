@@ -12,3 +12,8 @@ Then instantiate and use the plugin in the Webpack configuration:
 
 
 > ### Look into code 4.html
+
+After running npm run build again, there will be a new file dist/main.css, which will contain all of the CSS imported by src/js/main.js. If you view dist/index.html in your browser now, the style will be missing, as it is now in dist/main.css. You can include the generated CSS in dist/index.html like this:
+
+> ### Look into code 5.html
+
